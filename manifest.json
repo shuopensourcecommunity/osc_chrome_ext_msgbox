@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "SHU Open Source Community Newer",
+  "description": "A message box to display SHUOSC news.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon2.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+      "notifications",
+      "http://www.shuosc.org/",
+      "http://*/"
+  ]
+}
